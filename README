@@ -1,0 +1,7 @@
+This is your new Play application
+=====================================
+
+This file will be packaged with your application, when using `play dist`.
+
+To run the application, you must first install play. Once completed:
+	$ play run

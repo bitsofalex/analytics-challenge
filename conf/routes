@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+
+POST	/v1/start						controllers.Analytics.start
+POST	/v1/end						controllers.Analytics.end
+POST	/v1/batch						controllers.Analytics.batch
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
